@@ -1,0 +1,20 @@
+[package]
+name = "en_hi_model"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+
+
+
+[dependencies]
+anyhow = "1.0.70"
+axum = "0.6.11"
+axum-macros = "0.3.6"
+rust-bert = "0.20.0"
+serde = "1.0.157"
+serde_json = "1.0.94"
+tokio = { version = "1", features = ["full"] }
+tower-http = {version = "0.4.0",features = ["cors"]}
